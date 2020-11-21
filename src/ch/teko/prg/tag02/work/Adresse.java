@@ -21,7 +21,7 @@ public class Adresse {
     }
 
     public String getWohnort() {
-        return wohnort
+        return wohnort;
     }
 
     public int getNummer(){
