@@ -1,17 +1,17 @@
 package ch.teko.prg.tag02.work;
 
-public class XY {
+public class Position {
     //Variabeln
     public int x;
     public int y;
 
     //Konstruktoren
-    public XY(int x, int y){
+    public Position(int x, int y){
         this.x = x;
         this.y = y;
     }
 
-    public XY(){
+    public Position(){
         this.x = 0;
         this.y = 0;
     }
