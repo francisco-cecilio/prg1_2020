@@ -10,22 +10,24 @@ public class Input {
 
     //Konstruktore
     public Input() {
-    this.firstNumber = 0;
-    this.secondNumber = 0;
+
     }
 
     //Methoden
-    public void setNumbers(int firstNumber, int secondNumber){
-        Scanner sc=new Scanner(System.in);
-        String name=sc.next();
-        int numberOne = Integer.parseInt(name);
-        this.firstNumber = numberOne;
+    public void setNumbers() {
+        Scanner firstInput = new Scanner(System.in);
+        firstNumber = firstInput.nextInt();
 
+        Scanner secondInput = new Scanner(System.in);
+        secondNumber = secondInput.nextInt();
+    }
 
-        Scanner sc2=new Scanner(System.in);
-        String name2=sc.next();
-        int numberTwo = Integer.parseInt(name);
-this.secondNumber = numberTwo;
+    public int getFirstNumber(){
+        return firstNumber;
+    }
+
+    public int getSecondNumber(){
+        return secondNumber;
     }
 }
 
