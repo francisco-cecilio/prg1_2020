@@ -22,12 +22,12 @@ public class Input {
         secondNumber = secondInput.nextInt();
     }
 
-    public int getFirstNumber(){
+    /*public int getFirstNumber(){
         return firstNumber;
     }
 
     public int getSecondNumber(){
         return secondNumber;
-    }
+    }*/
 }
 
